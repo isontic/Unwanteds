@@ -658,6 +658,15 @@
                     "body": "You must create an account to talk to Clive. This is to help prevent spam and abuse of Clive (He has feelings too)."
                 }
             }
+        },
+        "languages": {
+            "pageName": "Languages",
+            "languages": {
+                "english": {
+                    "language": "English",
+                    "credit": "Elias Deuss"
+                }
+            }
         }
     },
     "labels": {
