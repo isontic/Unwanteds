@@ -207,7 +207,12 @@
         "locations": {
             "pageName": "Locations",
             "labels": {
-                "otherLocations": "Other Locations"
+                "otherLocations": "Other Locations",
+                "image": "Image",
+                "map": "Map",
+                "history": "History",
+                "more": "More",
+                "locationKey": "Location Key"
             },
             "popups": {
                 "spoilerWarning": {
