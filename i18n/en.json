@@ -235,6 +235,7 @@
                 "suspendedUser": "suspended user",
                 "suspendedUserBodyOther": "This users account has been suspended.",
                 "suspendedUserBodyYou": "Your account has been suspended.",
+                "blockUser": "Block user",
                 "pages": {
                     "artRoomPosts": "Art Room Posts",
                     "libraryPosts": "Library Posts",
@@ -661,6 +662,18 @@
                 "createAnAccount": {
                     "title": "Create an Account",
                     "body": "You must create an account to talk to Clive. This is to help prevent spam and abuse of Clive (He has feelings too)."
+                },
+                "cliveMentionDisabled": {
+                    "title": "Clive mentioning disabled",
+                    "body": "Clive mentioning in chat rooms has been disabled."
+                },
+                "cliveDisabled": {
+                    "title": "Clive is not here.",
+                    "body": "Looks like Clive is currently not here. Come back later to see if he has come back."
+                },
+                "cliveUpdate": {
+                    "title": "Updated needed.",
+                    "body": "Please update your app to use Clive."
                 }
             }
         },
