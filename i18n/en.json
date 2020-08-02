@@ -236,6 +236,7 @@
                 "suspendedUserBodyOther": "This users account has been suspended.",
                 "suspendedUserBodyYou": "Your account has been suspended.",
                 "blockUser": "Block user",
+                "reportUser": "Report user",
                 "pages": {
                     "artRoomPosts": "Art Room Posts",
                     "libraryPosts": "Library Posts",
@@ -436,6 +437,12 @@
                 "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
                 "referralLinks": "Referral Links",
                 "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"More info\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nIndie Bound"
+            },
+            "popups": {
+                "popupHeartWidget": {
+                    "title": "Links with a heart are referral links which help support the app!",
+                    "subtitle": "You can also support the app directly through the Tip Jar page."
+                }
             }
         },
         "rules": {
@@ -554,6 +561,7 @@
             "pageName": "Push Notifications",
             "labels": {
                 "general": "General",
+                "chatRooms": "Chat Rooms",
                 "generalOptions": {
                     "blackboardAnnouncements": {
                         "title": "Blackboard announcements",
@@ -586,6 +594,16 @@
                     "comments": {
                         "title": "Comments",
                         "subtitle": "Get a notification when someone comments your Library post."
+                    }
+                },
+                "chatroomOptions": {
+                    "mentions": {
+                        "title": "Mentions",
+                        "subtitle": "Get a notification when someone mentions you in a Chat Room."
+                    },
+                    "mentionsByStaff": {
+                        "title": "Mentions by Staff",
+                        "subtitle": "Get a notification when a staff member mentions you even if you have Mentions option off."
                     }
                 }
             }
@@ -776,6 +794,10 @@
             "messageReported": {
                 "title": "Message Reported!",
                 "body": "Unwanteds Staff will review the message soon!"
+            },
+            "userReported": {
+                "title": "User Reported!",
+                "body": "Unwanteds Staff will review the user soon!"
             },
             "13orOlderBan": {
                 "title": "Banned from posting",
