@@ -365,6 +365,22 @@
                 }
             }
         },
+        "activeUsers": {
+            "pageName": "Active users",
+            "labels": {
+                "active": "Active",
+                "noActiveUsers": {
+                    "title": "No active users online",
+                    "body": "There is no active users online in the past 3 minutes."
+                }
+            },
+            "popups": {
+                "aboutPage": {
+                    "title": "Shows active users",
+                    "body": "Shows active users if they are online in the past 3 minutes."
+                }
+            }
+        },
         "activity": {
             "pageName": "Activity",
             "latest": "Latest",
@@ -435,6 +451,7 @@
                 "body1": "If you are really enjoying the Unwanteds app and would like to support the apps development please consider tipping. Tipping is not required but if you enjoy using the app we will be grateful for your contribution and your support :)",
                 "inappTip": "In App Tip",
                 "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
+                "mactipError": "Can't tip on MacOS. Please download the mobile app to be able to In App Tip.",
                 "referralLinks": "Referral Links",
                 "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"More info\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nIndie Bound"
             },
