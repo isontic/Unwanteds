@@ -453,7 +453,9 @@
                 "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
                 "mactipError": "Can't tip on MacOS. Please download the mobile app to be able to In App Tip.",
                 "referralLinks": "Referral Links",
-                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"More info\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nIndie Bound"
+                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"More info\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
+                "apple30": "Apple takes 30% of your in app tip.",
+                "google30": "Google takes 30% of your in app tip."
             },
             "popups": {
                 "popupHeartWidget": {
@@ -470,7 +472,9 @@
                 "artRoomBody": "- If reference picture is used credit the original artist and if possible ask for permission\n- Try to keep things original\n- Keep things clean\n- Must be Unwanteds related",
                 "libraryBody": "- Keep things clean\n- Use library for actual stories only, with a minimum of 100 words\n- Check spelling and grammar to the best of your ability\n- Must be Unwanteds related\n- Must be original\n- Updating on a story is allowed",
                 "commentsChat": "Comments/Chat",
-                "commentsChatBody": "- No hurtful, hateful, or rude comments\n- No random spam/don't spam the chat\n- Everyone can have their own opinions\n- Keep things clean\n- If you see something offensive report the comment/user or tell an Protector or High Priest (shown with a gold or purple badge)",
+                "commentsChatBody": "- No discriminatory statements allowed in chat spaces/comments (definition of discriminatory described below)\n- No random spam allowed in chat (please don’t spam the chat) \n- Keep things clean in chatrooms (no NSFW comments  or excessive swearing, we have younger users on here)\n- If you see something offensive, please report the comment and-or-user with the report button or DM a Protector/High Priest (marked with a yellow or purple badge)",
+                "dstaaTitle": "Discriminatory Statements That Aren't Allowed:",
+                "dstaaBody": "- No racism of any kind.\n- No homophobia of any kind.\n- No transphobia of any kind.\n- No anti-Semitism of any kind.\n- No sexism of any kind.\n- No ableist statements of any kind.\n- No statements discriminating against any religion or culture.\n- No religious statements used to discriminate or justify discrimination.\n- Any other discriminatory or offensive statements are not allowed, any chats and comments should ensure that all users feel comfortable and safe at all times.",
                 "rpChatRooms": "RP Chat Rooms",
                 "rpChatRoomsBody": "- No hurtful, hateful, or rude comments\n- No random spam/don't spam the chat\n- Keep to the plot/original plan you and the other's have made\n- Keep things clean\n- If you see something offensive report the comment/user or tell an Protector or High Priest (shown with a gold or purple badge)",
                 "bottomText": "You will get banned, possibly indefinitely, for breaking one or more rules."
@@ -534,6 +538,31 @@
                 "invalidEmail": {
                     "title": "Invalid Email",
                     "body": "Please put in an actual email address."
+                },
+                "maxDisplay": "Max Display Name length is 16 characters.",
+                "usernameText": "(You won't be able to change this later!)\nYou can also only use letters and numbers, the max length is 12 characters."
+            },
+            "popup": {
+                "displayNameToLong": {
+                    "title": "Display name is too long",
+                    "body": "Please make your display name under 16 characters."
+                },
+                "incorrectUsernameFormat": {
+                    "title": "Incorrect username fromat",
+                    "body": "Please make sure the username has no spaces or periods. You can only use letters and numbers in your username."
+                },
+                "cannotChangeUsernameWarning": {
+                    "title": "You can't change your username after this",
+                    "body": "You can't change your username after you create your account. Make sure it is what you want before you tap confirm."
+                },
+                "alreadyClaimed": {
+                    "title": "Username already claimed!",
+                    "body": "This username has already been claimed. Please chose another one."
+                },
+                "claimingUsername": {
+                    "title": "You are claiming",
+                    "body": "This can't be changed later!",
+                    "claim": "Claim"
                 }
             }
         },
@@ -746,6 +775,7 @@
             "reset": "Reset",
             "save": "Save",
             "continue": "Continue",
+            "order": "Order",
             "back": "Back",
             "gotIt": "Got it",
             "camera": "Camera",
