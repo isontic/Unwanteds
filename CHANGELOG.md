@@ -1,3 +1,6 @@
+4.2.2 - [Released]:
+- Bug fixes and improvements to the tube system (Frieda Stubbs keeps breaking things).
+
 4.2.1 - [Released]:
 - Added Active users page (View who was active in the last 3 minutes).
 - Updated Dragon Slayers book banner.
