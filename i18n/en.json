@@ -453,7 +453,7 @@
                 "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
                 "mactipError": "Can't tip on MacOS. Please download the mobile app to be able to In App Tip.",
                 "referralLinks": "Referral Links",
-                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"More info\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
+                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"Order\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nBookstore\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
                 "apple30": "Apple takes 30% of your in app tip.",
                 "google30": "Google takes 30% of your in app tip."
             },
@@ -776,6 +776,7 @@
             "save": "Save",
             "continue": "Continue",
             "order": "Order",
+            "link": "Link",
             "back": "Back",
             "gotIt": "Got it",
             "camera": "Camera",
