@@ -13,6 +13,7 @@
                     "availableinDays": "days",
                     "bookName": "Book Name",
                     "bookNumber": "Book Number",
+                    "bookDescription": "Description",
                     "series": "Series",
                     "publishedDate": "Published Date"
                 }
@@ -118,6 +119,7 @@
                         "removedByUser": "Removed by user",
                         "removedByStaff": "Removed by staff",
                         "nowASupporter": "Is now a supporter!",
+                        "nowAPro": "Is now a Pro user!",
                         "youWereBlinded": "You were blinded",
                         "welcomeMessage": "Welcome new Artiméan!"
                     },
@@ -235,6 +237,7 @@
                 "suspendedUser": "suspended user",
                 "suspendedUserBodyOther": "This users account has been suspended.",
                 "suspendedUserBodyYou": "Your account has been suspended.",
+                "profileBlocked": "[Your profile has been hidden by an staff member]",
                 "blockUser": "Block user",
                 "reportUser": "Report user",
                 "pages": {
@@ -287,6 +290,16 @@
             "postsPage": {
                 "title": "Library Posts",
                 "noPosts": "No Library Posts"
+            }
+        },
+        "theater": {
+            "pageName": "Theater",
+            "labels": {
+                "story": "Story"
+            },
+            "postsPage": {
+                "title": "Theater Posts",
+                "noPosts": "No Theater Posts"
             }
         },
         "artRoom": {
@@ -391,7 +404,8 @@
                     "comment": "Comment",
                     "artroomPost": "New art room post!",
                     "libraryPost": "New library post!",
-                    "tipJar": "Added to the Tip Jar!"
+                    "tipJar": "Added to the Tip Jar!",
+                    "proUser": "New Pro User!"
                 },
                 "activitySubtitleLabels": {
                     "edit": "edited by",
@@ -401,7 +415,8 @@
                     "characterAdd": "character added by",
                     "artroomPost": "post by",
                     "libraryPost": "post by",
-                    "tipJar": "tipped by"
+                    "tipJar": "tipped by",
+                    "proUser": "became a Pro User!"
                 }
             },
             "popups": {
@@ -462,6 +477,17 @@
                     "title": "Links with a heart are referral links which help support the app!",
                     "subtitle": "You can also support the app directly through the Tip Jar page."
                 }
+            }
+        },
+        "pro": {
+            "pageName": "Pro",
+            "labels": {
+                "body1": "- Customizable Chat Room looks.\n- Heart Chat Room Badge.\n- Supporter Badge forever in profile.\n- Access to special Supporters only Chat Room.\n- Support app development/servers.",
+                "inappTip": "In App Tip",
+                "betaError": "Can't sign up to Pro in the beta. Please download the public verison to be able to go Pro.",
+                "mactipError": "Can't sign up for Pro on MacOS. Please download the mobile app to be able to go Pro.",
+                "apple30": "Apple takes 30% of your in app tip.",
+                "google30": "Google takes 30% of your in app tip."
             }
         },
         "rules": {
@@ -593,6 +619,10 @@
                 "crSettings": "Chat Room Settings",
                 "appIcon": "App Icon",
                 "appIcons": {
+                    "simberMask": {
+                        "title": "Simber with Mask",
+                        "subtitle": "#WearAMask"
+                    },
                     "simberKF": {
                         "subtitle": "Created by Kestrel Flurry"
                     },
@@ -700,7 +730,7 @@
                 "body": "Hello fellow Unwanted!\n\nThe Library is a place for other unwanteds to share their fan fiction story's in the Unwanteds world!\n\nPlease keep everything PG all you Unwanted writers!\n\nSome rules:\n- keep things clean\n- use library for actual stories only, with a minimum of 100 words\n- check spelling and grammar to the best of your ability\n- must be Unwanteds related\n- must be original\n- updating on a story is allowed\n\nHappy posting!"
             },
             "artRoom": {
-                "body": "Hello fellow Unwanted!\n\nThe Art Room is a place for other unwanteds to share their fan art!\n\nPlease keep everything PG all you Unwanted artists!\n\nSome rules:\n- if reference picture is used credit the original artist and if possible ask for permission\n- try to keep things original\n- keep things clean\n- must be Unwanteds related\n\nHappy posting!"
+                "body": "Hello fellow Unwanted!\n\nThe Art Room is a place for other unwanteds to share their fan art!\n\nPlease keep everything PG all you Unwanted artists!\n\nSome rules:\n- if reference picture is used credit the original artist and ask for permission\n- try to keep things original\n- keep things clean\n- must be Unwanteds related\n\nHappy posting!"
             },
             "COPPA": {
                 "body1": "To comply with COPPA (Children's Online Privacy Protection Act) to create an account you must be 13 years old or older. Unwanteds app development company \"isontic\" is based in the United States and is subject to the laws based in the United States.\n\nChildren under 12 and under can still view all Unwanteds information in the app but cannot create an account to interact with other users.",
@@ -722,6 +752,10 @@
                 "spoilerWarning": {
                     "title": "Spoiler Warning!",
                     "body": "Clive will give the series most recent info. This my spoil important events for you in the series if your not up to date on the most recent book. Continue with care."
+                },
+                "alphaWarning": {
+                    "title": "Clive is in Alpha",
+                    "body": "This means that he dosn't know everthing about the series yet and might not understand all your questions yet."
                 },
                 "createAnAccount": {
                     "title": "Create an Account",
@@ -749,6 +783,13 @@
                     "credit": "Elias Deuss"
                 }
             }
+        },
+        "readBooks": {
+            "pageName": "Read Books",
+            "labels": {
+                "readbooksYou": "Books you have read.",
+                "readbooksOther": "Books they have read."
+            }
         }
     },
     "labels": {
@@ -767,6 +808,7 @@
             "caaGuest": "Continue as a guest",
             "ok": "Ok",
             "post": "Post",
+            "read": "Read",
             "remove": "Remove",
             "cancel": "Cancel",
             "edit": "Edit",
@@ -819,7 +861,9 @@
             "password": "Password",
             "or": "or",
             "settingsUpdated": "Settings Updated!",
-            "holdToReply": "Hold to reply"
+            "holdToReply": "Hold to reply",
+            "imageSave": "Image Saved!",
+            "imageSaveError": "Image failed to save."
         },
         "popups": {
             "reportBug": {
