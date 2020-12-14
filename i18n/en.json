@@ -24,21 +24,10 @@
             "searchBoxNoFound": "No spells Found",
             "spellInfo": {
                 "labels": {
-                    "backgroundInfo": "Background Info",
-                    "backgroundInfoItems": {
-                        "verbalCommand": "Verbal Command",
-                        "spellComponent": "Component",
-                        "spellHowTo": "How To",
-                        "spellLethalCommand": "Lethal Command",
-                        "spellLethalHowTo": "Lethal how to"
-                    },
                     "aboutHistory": "About/History",
                     "pageCredits": "Credits/Other",
                     "spellCreator": "Creator",
-                    "spellCreatorUnknown": "Unknown",
-                    "firstFoundInBook": "In Book",
-                    "spellImageCreator": "Image creator",
-                    "spellKey": "Spell Key"
+                    "spellCreatorUnknown": "Unknown"
                 }
             }
         },
@@ -55,22 +44,7 @@
                         "alive": "Alive",
                         "dead": "Dead"
                     },
-                    "backgroundInfo": "Background Info",
-                    "backgroundInfoItems": {
-                        "otherNames": "Other Names",
-                        "ageUnwanteds": "Age (The Unwanteds)",
-                        "ageUnwantedsQuests": "Age (Unwanteds Quests)",
-                        "locationBorn": "Born",
-                        "abilities": "Abilities",
-                        "charactersGoal": "Goal"
-                    },
-                    "about": "About",
-                    "charactersRelatives": "Relatives",
-                    "moreInfo": "More",
-                    "charactersRelationships": "Relationships",
-                    "pageCredits": "Credits/Other",
-                    "avatarCreator": "Avatar creator",
-                    "characterKey": "Character Key"
+                    "pageCredits": "Credits/Other"
                 }
             }
         },
@@ -130,6 +104,9 @@
                         "bottomLable": "(You were blinded)",
                         "blockedLable": "Blinding Highlighter effect blocked."
                     },
+                    "confetti": {
+                        "blockedLabel": "Confetti cannon has gone off!"
+                    },
                     "epilepsyWarning": {
                         "title": "Photosensitive Epilepsy",
                         "body": "If you have issues with Epilepsy you can turn off flashing effects/animations in the Chat Room Settings Page."
@@ -144,7 +121,7 @@
                     },
                     "lurkingMode": {
                         "title": "Lurking Mode Enabled",
-                        "body": "You can't chat when you are lurking around the chat rooms."
+                        "body": "You can't chat when you are lurking around the chat rooms. Tap disable to be brought back in."
                     },
                     "createAnAccountWarning": {
                         "title": "Create an account",
@@ -209,17 +186,12 @@
         "locations": {
             "pageName": "Locations",
             "labels": {
-                "otherLocations": "Other Locations",
-                "image": "Image",
-                "map": "Map",
-                "history": "History",
-                "more": "More",
-                "locationKey": "Location Key"
+                "otherLocations": "Other Locations"
             },
             "popups": {
                 "spoilerWarning": {
                     "title": "Spoiler warning",
-                    "body": "This page show's the latest information for each island. Read with care."
+                    "body": "This page show's the latest information for each location/island. Read with care."
                 }
             }
         },
@@ -255,6 +227,7 @@
             "labels": {
                 "userBio": "Bio",
                 "rolePlayName": "Role Play Name",
+                "rolePlayAvatar": "Role Play Avatar",
                 "userName": "Username",
                 "userNameSubtitle": "Claim a username (You can't change this afterwords)",
                 "claimAUsername": "Claim a username",
@@ -378,22 +351,6 @@
                 }
             }
         },
-        "activeUsers": {
-            "pageName": "Active users",
-            "labels": {
-                "active": "Active",
-                "noActiveUsers": {
-                    "title": "No active users online",
-                    "body": "There is no active users online in the past 3 minutes."
-                }
-            },
-            "popups": {
-                "aboutPage": {
-                    "title": "Shows active users",
-                    "body": "Shows active users if they are online in the past 3 minutes."
-                }
-            }
-        },
         "activity": {
             "pageName": "Activity",
             "latest": "Latest",
@@ -453,10 +410,13 @@
                 "social": "Social"
             }
         },
+        "mansionLounge": {
+            "pageName": "Mansion Lounge"
+        },
         "aboutLisa": {
             "pageName": "About",
             "labels": {
-                "body": "Lisa McMann lives in Sacramento, California. She is married to fellow writer and musician, Matt McMann, and they have two adult children. Her son is an artist named Kilian McMann and her daughter is an actor, Kennedy McMann. Lisa is the New York Times bestselling author of over two dozen books for young adults and children. So far she has written in genres including paranormal, realistic, dystopian, and fantasy. Some of her most well-known books are The Unwanteds series for middle grade readers and the Wake trilogy for young adults. Check out Lisa's website at LisaMcMann.com, learn more about The Unwanteds Series at UnwantedsSeries.com, and be sure to say hi on Instagram or Twitter."
+                "body": "Lisa McMann lives in Sacramento, California. She is married to fellow writer and musician, Matt McMann, and they have two adult children. Her son is an artist named Kilian McMann and her daughter is an actor, Kennedy McMann. Lisa is the New York Times bestselling author of over two dozen books for young adults and children. So far she has written in genres including paranormal, realistic, dystopian, and fantasy. Some of her most well-known books are The Unwanteds series for middle grade readers and the Wake trilogy for young adults. Check out Lisa's website at LisaMcMann.com."
             }
         },
         "tipJar": {
@@ -468,8 +428,7 @@
                 "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
                 "mactipError": "Can't tip on MacOS. Please download the mobile app to be able to In App Tip.",
                 "referralLinks": "Referral Links",
-                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"Order\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nAmazon\nAudible\nBookstore\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
-                "apple30": "Apple takes 30% of your in app tip.",
+                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"Order\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nBookstore\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
                 "google30": "Google takes 30% of your in app tip."
             },
             "popups": {
@@ -485,9 +444,7 @@
                 "body1": "- Customizable Chat Room looks.\n- Heart Chat Room Badge.\n- Supporter Badge forever in profile.\n- Access to special Supporters only Chat Room.\n- Support app development/servers.",
                 "inappTip": "In App Tip",
                 "betaError": "Can't sign up to Pro in the beta. Please download the public verison to be able to go Pro.",
-                "mactipError": "Can't sign up for Pro on MacOS. Please download the mobile app to be able to go Pro.",
-                "apple30": "Apple takes 30% of your in app tip.",
-                "google30": "Google takes 30% of your in app tip."
+                "mactipError": "Can't sign up for Pro on MacOS. Please download the mobile app to be able to go Pro."
             }
         },
         "rules": {
@@ -615,6 +572,7 @@
                 "appSettings": "App Settings",
                 "hapticFeedback": "Haptic Feedback",
                 "sortBooks": "Books sort by newest",
+                "saveTabOnExit": "Return to last tab on re-open",
                 "pushNotifications": "Push Notifications",
                 "crSettings": "Chat Room Settings",
                 "appIcon": "App Icon",
@@ -692,6 +650,14 @@
                     "flashEffects": {
                         "title": "Disable effects that flash on the screen",
                         "subtitle": "Please disable this if you have Photosensitive epilepsy."
+                    },
+                    "movingEffects": {
+                        "title": "Disable moving effects",
+                        "subtitle": "Please disable this if you sensitive to moving object."
+                    },
+                    "confettiCannon": {
+                        "title": "Disable confetti cannon",
+                        "subtitle": "Stops the confetti from going off on your screen."
                     }
                 },
                 "other": "Other",
@@ -701,6 +667,12 @@
                         "subtitle": "Lets you lurk around the chat rooms without being seen. (You won't be able to chat in this mode)"
                     }
                 }
+            }
+        },
+        "mentions": {
+            "pageName": "Mentions",
+            "labels": {
+                "removeMessage": "Message has been removed from your mentions. (Note: this dosn't remove it from chat rooms)"
             }
         },
         "usernameSettings": {
@@ -742,45 +714,16 @@
                 "textField": "Reason to report this"
             }
         },
-        "cliveAI": {
-            "pageName": "Clive (Alpha)",
-            "pageSubtitle": "Ask Clive questions about the series or just say hello.",
-            "labels": {
-                "about": "Clive is an AI based of Clive the Blackboard in the series. He is here to help you find information on different parts of the Unwanteds series and Unwanteds Quest series. You want to be careful Clive will probably spoil the series for you if you haven't caught up to the most recent book."
-            },
-            "popups": {
-                "spoilerWarning": {
-                    "title": "Spoiler Warning!",
-                    "body": "Clive will give the series most recent info. This my spoil important events for you in the series if your not up to date on the most recent book. Continue with care."
-                },
-                "alphaWarning": {
-                    "title": "Clive is in Alpha",
-                    "body": "This means that he dosn't know everthing about the series yet and might not understand all your questions yet."
-                },
-                "createAnAccount": {
-                    "title": "Create an Account",
-                    "body": "You must create an account to talk to Clive. This is to help prevent spam and abuse of Clive (He has feelings too)."
-                },
-                "cliveMentionDisabled": {
-                    "title": "Clive mentioning disabled",
-                    "body": "Clive mentioning in chat rooms has been disabled."
-                },
-                "cliveDisabled": {
-                    "title": "Clive is not here.",
-                    "body": "Looks like Clive is currently not here. Come back later to see if he has come back."
-                },
-                "cliveUpdate": {
-                    "title": "Updated needed.",
-                    "body": "Please update your app to use Clive."
-                }
-            }
-        },
         "languages": {
             "pageName": "Languages",
             "languages": {
                 "english": {
                     "language": "English",
                     "credit": "Elias Deuss"
+                },
+                "german": {
+                    "language": "German",
+                    "credit": "Elias / Gustav"
                 }
             }
         },
@@ -810,6 +753,7 @@
             "post": "Post",
             "read": "Read",
             "remove": "Remove",
+            "disable": "Disable",
             "cancel": "Cancel",
             "edit": "Edit",
             "assign": "Assign",
@@ -821,6 +765,7 @@
             "link": "Link",
             "back": "Back",
             "gotIt": "Got it",
+            "done": "Done",
             "camera": "Camera",
             "photoGallery": "Photo Gallery",
             "editPage": "Edit Page",
@@ -831,6 +776,7 @@
             "reportABug": "Report a Bug",
             "report": "Report",
             "loginSignUp": "Login / Sign up!",
+            "signInWithApple": "Sign in with Apple",
             "commentAction": {
                 "replyToComment": "Reply to Comment",
                 "viewProfile": "View Profile",
@@ -868,7 +814,7 @@
         "popups": {
             "reportBug": {
                 "title": "Bug Report",
-                "body": "This must be an issue with the app. If you are having issues with your account please contact App Support on the More Tab (This includes if you where banned).",
+                "body": "This must be an issue with the app. If you are having issues with your account please contact App Support on in the About page (This includes if you where banned).",
                 "button": "Bug"
             },
             "pageLocked": {
