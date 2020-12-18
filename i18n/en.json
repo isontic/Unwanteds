@@ -172,6 +172,8 @@
                 "pageCredits": "Credits/Other",
                 "spellCreator": "Creator",
                 "spellCreatorUnknown": "Unknown",
+                "tags": "Tags",
+                "contentUpdateWarning": "Content has not been updated to new system.",
                 "otherCharacterInfo": {
                     "alive": "Alive",
                     "dead": "Dead"
@@ -877,6 +879,14 @@
             "checkConnectionCommenting": {
                 "title": "Check Connection",
                 "body": "Please check your internet connection because it is required for commenting."
+            },
+            "dragonSlayersWarning": {
+                "title": "Unwanteds Quests: Dragon Slayers",
+                "body": "Contains Dragon Slayers content, info on this page may spoil some of the book for you. Read with care."
+            },
+            "dragonFuryWarning": {
+                "title": "Unwanteds Quests: Dragon Fury",
+                "body": "Contains Dragon Fury content, info on this page may spoil some of the book for you. Read with care."
             }
         }
     }
