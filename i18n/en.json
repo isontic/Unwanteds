@@ -809,6 +809,11 @@
             "imageSaveError": "Image failed to save."
         },
         "popups": {
+            "bookContentWarning": {
+                "title2": "Contains new book content",
+                "body1": "This page contains new info from the ",
+                "body2": ".Please read with care, this info might spoil the book for you."
+            },
             "reportBug": {
                 "title": "Bug Report",
                 "body": "This must be an issue with the app. If you are having issues with your account please contact App Support on in the About page (This includes if you where banned).",
