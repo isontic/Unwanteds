@@ -21,15 +21,7 @@
         },
         "spellsTab": {
             "title": "Spells",
-            "searchBoxNoFound": "No spells Found",
-            "spellInfo": {
-                "labels": {
-                    "aboutHistory": "About/History",
-                    "pageCredits": "Credits/Other",
-                    "spellCreator": "Creator",
-                    "spellCreatorUnknown": "Unknown"
-                }
-            }
+            "searchBoxNoFound": "No spells Found"
         },
         "charactersTab": {
             "title": "Characters",
@@ -37,16 +29,7 @@
                 "human": "Human",
                 "nonHuman": "Non-Human"
             },
-            "searchBoxNoFound": "No characters Found",
-            "characterInfo": {
-                "labels": {
-                    "otherInfo": {
-                        "alive": "Alive",
-                        "dead": "Dead"
-                    },
-                    "pageCredits": "Credits/Other"
-                }
-            }
+            "searchBoxNoFound": "No characters Found"
         },
         "chatTab": {
             "title": "Chat",
@@ -183,6 +166,18 @@
         }
     },
     "pages": {
+        "infoPage": {
+            "labels": {
+                "authorsNote": "Author's Note",
+                "pageCredits": "Credits/Other",
+                "spellCreator": "Creator",
+                "spellCreatorUnknown": "Unknown",
+                "otherCharacterInfo": {
+                    "alive": "Alive",
+                    "dead": "Dead"
+                }
+            }
+        },
         "locations": {
             "pageName": "Locations",
             "labels": {
