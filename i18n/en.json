@@ -21,7 +21,8 @@
         },
         "spellsTab": {
             "title": "Spells",
-            "searchBoxNoFound": "No spells Found"
+            "searchBoxNoFound": "No spells Found",
+            "noSpellSelected": "No Spell Selected"
         },
         "charactersTab": {
             "title": "Characters",
@@ -29,7 +30,8 @@
                 "human": "Human",
                 "nonHuman": "Non-Human"
             },
-            "searchBoxNoFound": "No characters Found"
+            "searchBoxNoFound": "No characters Found",
+            "noCharacterSelected": "No Character Selected"
         },
         "chatTab": {
             "title": "Chat",
@@ -713,14 +715,20 @@
         },
         "languages": {
             "pageName": "Languages",
+            "labels": {
+                "about": "You can help bring the app to your written language!\n\nClick on the link bellow to get started!",
+                "contributeButton": "Contribute"
+            },
             "languages": {
                 "english": {
                     "language": "English",
-                    "credit": "Elias Deuss"
+                    "credit": "Elias Deuss",
+                    "username": "Elias"
                 },
                 "german": {
                     "language": "German",
-                    "credit": "Elias / Gustav"
+                    "credit": "Gustav Deuss",
+                    "username": "null"
                 }
             }
         },
