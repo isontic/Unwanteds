@@ -1,0 +1,898 @@
+{
+    "tabs": {
+        "homeTab": {
+            "title": "Start",
+            "bookInfo": {
+                "labels": {
+                    "moreInfo": "Zusätzliche Information",
+                    "info": "Information",
+                    "released": "Veröffentlicht",
+                    "available": "Verfügbar",
+                    "availablein": "Verfügbar in",
+                    "availableinHours": "Verfügbar in Stunden",
+                    "availableinDays": "Verfügbar in Tagen",
+                    "bookName": "Buchname",
+                    "bookNumber": "Buchnummer",
+                    "bookDescription": "Description",
+                    "series": "Serie",
+                    "publishedDate": "Veröffentlichungsdatum"
+                }
+            }
+        },
+        "spellsTab": {
+            "title": "Zaubersprüche",
+            "searchBoxNoFound": "Keinen Zauberspruch gefunden"
+        },
+        "charactersTab": {
+            "title": "Charakter",
+            "tabs": {
+                "human": "Mensch",
+                "nonHuman": "Nicht-Mensch"
+            },
+            "searchBoxNoFound": "No characters Found"
+        },
+        "chatTab": {
+            "title": "Plaudern",
+            "labels": {
+                "joinRoom": "Beitreten"
+            },
+            "rooms": {
+                "labels": {
+                    "banners": {
+                        "audioBanner": {
+                            "title": "Mithören",
+                            "subtitle": "Live-Audioübertragung"
+                        },
+                        "reportABugBanner": {
+                            "title": "Melde einen technischen Fehler",
+                            "subtitle": "Senden Sie einen Fehlerbericht an isontic",
+                            "button": "Bericht"
+                        },
+                        "bookBanner": {
+                            "buttonPreOrder": "Vor-Bestellung",
+                            "buttonOrder": "Bestellung",
+                            "buttonComingSoon": "Bald Verfügbar",
+                            "comingSoonNoLinks": {
+                                "title": "Keine Links",
+                                "body": "Noch keine Links zum Buch."
+                            }
+                        }
+                    },
+                    "bottomInfoBar": {
+                        "wait": "warte",
+                        "readyToSend": "Bereit zum Senden",
+                        "slowChatMode": "Langsamer Chat-Modus",
+                        "chatFrozen": "Chat eingefroren"
+                    },
+                    "messagesPlaceholder": "Nachricht",
+                    "messageActions": {
+                        "viewImage": "Bild ansehen",
+                        "replyToMessage": "Auf Nachricht antworten",
+                        "viewUser": "View User",
+                        "reportMessage": "Nachricht melden",
+                        "removeMessage": "Nachricht entfernen"
+                    },
+                    "messageUI": {
+                        "removedByUser": "Gelöscht bei dem Nutzer",
+                        "removedByStaff": "Gelöscht bei Moderator",
+                        "nowASupporter": "Ist jetzt ein Unterstützer!",
+                        "nowAPro": "Ist jetzt ein Pro-Benutzer!",
+                        "youWereBlinded": "Du warst geblendet",
+                        "welcomeMessage": "Willkommen neu Artiméan!"
+                    },
+                    "imageViewerTitle": "Gesendet von"
+                },
+                "popups": {
+                    "blindingHighlighter": {
+                        "bottomLable": "(Du warst geblendet)",
+                        "blockedLable": "Blendender Textmarkereffekt blockiert."
+                    },
+                    "confetti": {
+                        "blockedLabel": "Konfettikanone ist losgegangen!"
+                    },
+                    "epilepsyWarning": {
+                        "title": "Photosensitiv für Epileptiker",
+                        "body": "Wenn Du Epileptiker bist kannst Du die Effekte und Animationen in den Einstellungen verhindern."
+                    },
+                    "imageSharingDisabled": {
+                        "title": "Bildfreigabe deaktiviert",
+                        "body": "Die Bildfreigabe wurde für diesen Chatraum deaktiviert."
+                    },
+                    "chatFrozen": {
+                        "title": "Chat eingefroren",
+                        "body": "Der Chat wurde eingefroren, sodass Sie keine Nachrichten oder Bilder senden können, bis er nicht eingefroren un-wurde."
+                    },
+                    "lurkingMode": {
+                        "title": "Lauernder Modus aktiviert",
+                        "body": "Sie können nicht chatten, wenn Sie in den Chatrooms lauern. Tippen Sie auf Deaktivieren, um chatten zu können."
+                    },
+                    "createAnAccountWarning": {
+                        "title": "Ein Konto erstellen!",
+                        "body": "Sie müssen ein Konto erstellen, um in den Chatrooms chatten zu können."
+                    },
+                    "bannedFromMessagingUnderAge": {
+                        "title": "Vom Messaging ausgeschlossen",
+                        "body": "Sie wurden vom Messaging ausgeschlossen, weil Sie unter 13 Jahre alt sind."
+                    },
+                    "bannedFromMessaging": {
+                        "title": "Vom Messaging ausgeschlossen",
+                        "body": "Sie wurden vom Messaging ausgeschlossen!"
+                    },
+                    "bannedFromMessagingEndDate": {
+                        "title": "Vom Messaging ausgeschlossen",
+                        "body": "Sie wurden von der Nachrichtenübermittlung bis ausgeschlossen"
+                    }
+                }
+            },
+            "popups": {
+                "rolePlay": {
+                    "title": "Rollenspielzimmer",
+                    "body": "Role Play chat rooms are not for normal conversations.\n\nIn these chat rooms you will talk like you are a character.\n\nYou can change your Role Play name in Account Settings."
+                },
+                "support": {
+                    "title": "App-Support-Raum",
+                    "body": "This room is for getting help with the app or suggesting changes or improvements."
+                },
+                "spoilerWarning": {
+                    "title": "Spoiler Warnung!",
+                    "body": "This room may contain spoilers from the new books, read with care."
+                },
+                "eventIsOver": {
+                    "title": "Veranstaltung ist beendet!",
+                    "body": "This event has ended, sorry you missed it!"
+                },
+                "eventIsNotOver": {
+                    "title": "Die Veranstaltung hat noch nicht begonnen!",
+                    "body": "Dieses Ereignis wurde noch nicht gestartet. Überprüfen Sie es zum Startzeitpunkt des Ereignisses."
+                },
+                "chatroomsUpdate": {
+                    "title": "Chatraum nicht verfügbar!",
+                    "body": "Bitte aktualisieren Sie die App, um zu den Chatrooms zu gelangen."
+                },
+                "chatroomsDisabled": {
+                    "title": "Chatraum derzeit offline!",
+                    "body": "Schauen Sie später noch einmal vorbei, um zu den Chatrooms zu gelangen."
+                }
+            }
+        },
+        "moreTab": {
+            "title": "Mehr"
+        },
+        "underMaintenanceBlocker": {
+            "title": "Wird gewartet",
+            "body1": "Komm bald wieder.",
+            "body2": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+            "body3": "Überprüfen Sie die Status-Website auf Aktualisierungen."
+        }
+    },
+    "pages": {
+        "infoPage": {
+            "labels": {
+                "authorsNote": "Author's Note",
+                "pageCredits": "Credits/Andere",
+                "spellCreator": "Schöpfer",
+                "spellCreatorUnknown": "Unbekannt",
+                "tags": "Tags",
+                "contentUpdateWarning": "Content has not been updated to new system.",
+                "otherCharacterInfo": {
+                    "alive": "Am Leben",
+                    "dead": "tot"
+                }
+            }
+        },
+        "locations": {
+            "pageName": "Region",
+            "labels": {
+                "otherLocations": "Andere Standorte"
+            },
+            "popups": {
+                "spoilerWarning": {
+                    "title": "Spoiler Warnung",
+                    "body": "This page show's the latest information for each location/island. Read with care."
+                }
+            }
+        },
+        "profile": {
+            "pageName": "Profil",
+            "labels": {
+                "follow": "Folgen",
+                "followBack": "Auch Folgen",
+                "followsYou": "Folgt dir",
+                "following": "Folge ich",
+                "followers": "Follower",
+                "supporter": "Fan",
+                "joinedOn": "Beitritt am",
+                "editProfile": "Profil bearbeiten",
+                "suspendedUser": "suspended user",
+                "suspendedUserBodyOther": "This users account has been suspended.",
+                "suspendedUserBodyYou": "Your account has been suspended.",
+                "profileBlocked": "[Your profile has been hidden by an staff member]",
+                "blockUser": "Block user",
+                "reportUser": "Report user",
+                "pages": {
+                    "artRoomPosts": "Art Room Posts",
+                    "libraryPosts": "Library Posts",
+                    "contributor": "Contributor",
+                    "rolePlay": "Role Play",
+                    "botCreatedBy": "Created by",
+                    "userPermissions": "User Permissions"
+                }
+            }
+        },
+        "editProfile": {
+            "pageName": "Profil bearbeiten",
+            "labels": {
+                "userBio": "Bio",
+                "rolePlayName": "Role Play Name",
+                "rolePlayAvatar": "Role Play Avatar",
+                "userName": "Username",
+                "userNameSubtitle": "Claim a username (You can't change this afterwords)",
+                "claimAUsername": "Claim a username",
+                "socialLinks": "Social links",
+                "socialLinksSubtitle": "These will show publicly on your profile page.",
+                "addTwitter": "Add your Twitter",
+                "addInstagram": "Add your Instagram"
+            },
+            "popup": {
+                "alreadyClaimed": {
+                    "title": "Username already claimed",
+                    "subtitle": "You can't change your username after you claim it."
+                }
+            }
+        },
+        "library": {
+            "pageName": "Bibliothek",
+            "labels": {
+                "storyTab": "Geschichte",
+                "otherTab": "Andere"
+            },
+            "addPage": {
+                "pageName": "Bibliothek hinzufügen",
+                "labels": {
+                    "authorName": "Author Name",
+                    "postBody": "Body",
+                    "postIcon": "Choose Post Icon"
+                }
+            },
+            "editPage": {
+                "pageName": "Library Edit"
+            },
+            "postsPage": {
+                "title": "Library Posts",
+                "noPosts": "No Library Posts"
+            }
+        },
+        "theater": {
+            "pageName": "Theatre",
+            "labels": {
+                "story": "Geschichte"
+            },
+            "postsPage": {
+                "title": "Theater Posts",
+                "noPosts": "No Theater Posts"
+            }
+        },
+        "artRoom": {
+            "pageName": "Kunstraum",
+            "labels": {
+                "artTab": "Kunst",
+                "otherTab": "Andere"
+            },
+            "addPage": {
+                "pageName": "Art Room Add",
+                "labels": {
+                    "postTitle": "Post Title",
+                    "title": "Title",
+                    "postDescription": "Post Description",
+                    "description": "Description (optional)",
+                    "postTopic": "Post topic"
+                },
+                "popups": {
+                    "pickAnImage": {
+                        "title": "Pick an image",
+                        "body": "Please pick an image to upload."
+                    },
+                    "addATitle": {
+                        "title": "Add a title",
+                        "body": "Please add a title to the image."
+                    }
+                }
+            },
+            "editPage": {
+                "pageName": "Art Room Edit"
+            },
+            "postsPage": {
+                "title": "Art Room Posts",
+                "noPosts": "No Art Room Posts"
+            }
+        },
+        "editHistory": {
+            "pageName": "Edit History",
+            "labels": {
+                "viewEditHistory": "View Edit History",
+                "lastEditedBy": "Last Edited by",
+                "editBy": "Edit by",
+                "editedOn": "Edited on",
+                "latestEdit": "Latest edit"
+            }
+        },
+        "blackboard": {
+            "pageName": "Blackboard",
+            "labels": {
+                "notificationLabels": {
+                    "follow": "followed you!",
+                    "libraryUpvote": "upvoted your post!",
+                    "artRoomUpvote": "upvoted your post!",
+                    "commentOnPostArtRoom": "commented your post!",
+                    "commentOnPostLibrary": "commented your post!",
+                    "commentReply": "replyed to your comment!",
+                    "tipJarAdd": "Thank you for your Tip!",
+                    "postRemoved-spam": "Post removed for spam.",
+                    "postRemoved-inappropriate": "Post removed for inappropriate content.",
+                    "postRemoved-sU": "Post removed for Stolen/Uncredited content.",
+                    "postRemoved-notLrules": "Post removed for not fitting library rules.",
+                    "postRemoved-other": "Post removed by a staff member."
+                },
+                "noNotifications": "No Notifications",
+                "errorGettingBlackboard": "Error getting blackboard :(",
+                "blackboardAssignmentWidget": {
+                    "title": "Blackboard Assignment",
+                    "body": "Tap to get assigned a blackboard to you."
+                }
+            },
+            "popups": {
+                "reAssignBlackboard": {
+                    "title": "Are you sure?",
+                    "body": "will miss you... or maybe not.",
+                    "button": "Re-Assign"
+                }
+            }
+        },
+        "activity": {
+            "pageName": "Aktivität",
+            "latest": "Neueste",
+            "labels": {
+                "activityTitleLabels": {
+                    "added": "Hinzugefügt",
+                    "edit": "Edit",
+                    "comment": "Kommentar",
+                    "artroomPost": "New art room post!",
+                    "libraryPost": "New library post!",
+                    "tipJar": "Added to the Tip Jar!",
+                    "proUser": "New Pro User!"
+                },
+                "activitySubtitleLabels": {
+                    "edit": "bearbeitet von",
+                    "comment": "neuer Kommentar von",
+                    "spellAdd": "spell added by",
+                    "locationAdd": "location added by",
+                    "characterAdd": "character added by",
+                    "artroomPost": "post by",
+                    "libraryPost": "post by",
+                    "tipJar": "tipped by",
+                    "proUser": "became a Pro User!"
+                }
+            },
+            "popups": {
+                "postNotFoundWarning": {
+                    "title": "Post not found",
+                    "artRoomBody": "The art room post was not found.",
+                    "libraryBody": "The library post was not found."
+                }
+            }
+        },
+        "contributors": {
+            "pageName": "Mitwirkende",
+            "labels": {
+                "edits": "Änderungen"
+            },
+            "popups": {
+                "topContributor": {
+                    "title": "Top-Mitwirkender",
+                    "body": "This user has the most edit's on the Unwanteds app!"
+                }
+            }
+        },
+        "about": {
+            "pageName": "Über",
+            "labels": {
+                "links": {
+                    "version": "Version",
+                    "aboutLisa": "Über Lisa McMann",
+                    "supportEmail": "Support-E-Mail",
+                    "privacyPolicy": "Datenschutz-Bestimmungen",
+                    "termsAndConditions": "Geschäftsbedingungen",
+                    "licenses": "Lizenzen"
+                },
+                "social": "Sozial"
+            }
+        },
+        "mansionLounge": {
+            "pageName": "Herrenhaus Lounge"
+        },
+        "aboutLisa": {
+            "pageName": "Über",
+            "labels": {
+                "body": "Lisa McMann lives in Sacramento, California. She is married to fellow writer and musician, Matt McMann, and they have two adult children. Her son is an artist named Kilian McMann and her daughter is an actor, Kennedy McMann. Lisa is the New York Times bestselling author of over two dozen books for young adults and children. So far she has written in genres including paranormal, realistic, dystopian, and fantasy. Some of her most well-known books are The Unwanteds series for middle grade readers and the Wake trilogy for young adults. Check out Lisa's website at LisaMcMann.com."
+            }
+        },
+        "tipJar": {
+            "pageName": "Trinkgeld Glas",
+            "labels": {
+                "madeWithHeart": "Gemacht mit ❤️ durch",
+                "body1": "If you are really enjoying the Unwanteds app and would like to support the apps development please consider tipping. Tipping is not required but if you enjoy using the app we will be grateful for your contribution and your support :)",
+                "inappTip": "In App Tip",
+                "betatipError": "Can't tip in the beta. Please download the public verison to be able to In App Tip.",
+                "mactipError": "Can't tip on MacOS. Please download the mobile app to be able to In App Tip.",
+                "referralLinks": "Referral Links",
+                "body2": "You can also support the app by getting any of the books through the app with our referral link. On any book on the Home Tab you can tap \"Order\" and order through the supported referral retailers, there you will use our referral code and it doesn't even cost you anything more to using it! :)\n\nSupported referral retailers:\nBookstore\nIndie Bound\nBooks a Million\nChanging Hands Bookstore",
+                "google30": "Google takes 30% of your in app tip."
+            },
+            "popups": {
+                "popupHeartWidget": {
+                    "title": "Links with a heart are referral links which help support the app!",
+                    "subtitle": "You can also support the app directly through the Tip Jar page."
+                }
+            }
+        },
+        "pro": {
+            "pageName": "Pro",
+            "labels": {
+                "body1": "- Customizable Chat Room looks.\n- Heart Chat Room Badge.\n- Supporter Badge forever in profile.\n- Access to special Supporters only Chat Room.\n- Support app development/servers.",
+                "inappTip": "In App Tip",
+                "betaError": "Can't sign up to Pro in the beta. Please download the public verison to be able to go Pro.",
+                "mactipError": "Can't sign up for Pro on MacOS. Please download the mobile app to be able to go Pro."
+            }
+        },
+        "rules": {
+            "pageName": "Rules",
+            "labels": {
+                "unwantedsAccount": "Unwanteds Account",
+                "unwantedsAccountBody": "- Must be 13 or older to make and use an account! (Creating alt accounts to get arround this will result in a permanent ban)",
+                "artRoomBody": "- If reference picture is used credit the original artist and if possible ask for permission\n- Try to keep things original\n- Keep things clean\n- Must be Unwanteds related",
+                "libraryBody": "- Keep things clean\n- Use library for actual stories only, with a minimum of 100 words\n- Check spelling and grammar to the best of your ability\n- Must be Unwanteds related\n- Must be original\n- Updating on a story is allowed",
+                "commentsChat": "Comments/Chat",
+                "commentsChatBody": "- No discriminatory statements allowed in chat spaces/comments (definition of discriminatory described below)\n- No random spam allowed in chat (please don’t spam the chat) \n- Keep things clean in chatrooms (no NSFW comments  or excessive swearing, we have younger users on here)\n- If you see something offensive, please report the comment and-or-user with the report button or DM a Protector/High Priest (marked with a yellow or purple badge)",
+                "dstaaTitle": "Discriminatory Statements That Aren't Allowed:",
+                "dstaaBody": "- No racism of any kind.\n- No homophobia of any kind.\n- No transphobia of any kind.\n- No anti-Semitism of any kind.\n- No sexism of any kind.\n- No ableist statements of any kind.\n- No statements discriminating against any religion or culture.\n- No religious statements used to discriminate or justify discrimination.\n- Any other discriminatory or offensive statements are not allowed, any chats and comments should ensure that all users feel comfortable and safe at all times.",
+                "rpChatRooms": "RP Chat Rooms",
+                "rpChatRoomsBody": "- No hurtful, hateful, or rude comments\n- No random spam/don't spam the chat\n- Keep to the plot/original plan you and the other's have made\n- Keep things clean\n- If you see something offensive report the comment/user or tell an Protector or High Priest (shown with a gold or purple badge)",
+                "bottomText": "You will get banned, possibly indefinitely, for breaking one or more rules."
+            }
+        },
+        "support": {
+            "pageName": "Support",
+            "labels": {
+                "contactSupport": "Contact Support",
+                "bodyText": "If you can't contact a staff member though the App Support chat room, you can contact us though these ways.",
+                "buttons": {
+                    "supportEmail": "Support Email",
+                    "supportTwitter": "Support Twitter"
+                }
+            }
+        },
+        "adminPanel": {
+            "pageName": "Administrationsmenü",
+            "labels": {}
+        },
+        "changelog": {
+            "pageName": "Änderungsprotokoll",
+            "labels": {
+                "appChange": "App Change",
+                "apiChange": "Api Change",
+                "appCurrentVersion": "App Current Version",
+                "apiCurrentVersion": "Api Current Version"
+            }
+        },
+        "greetingsScreen": {
+            "labels": {
+                "body": "Die Heimat von The Unwanteds und Unwanteds Quests!"
+            }
+        },
+        "loginScreen": {
+            "labels": {
+                "error": "Error",
+                "fixErrorsInRed": "Please fix the errors in red before submitting.",
+                "ERROR_USER_NOT_FOUND": "Falsche Email!",
+                "ERROR_WRONG_PASSWORD": "Falsches Passwort!",
+                "forgotPass": "Ihr passwort vergessen"
+            },
+            "deviceBan": {
+                "title": "Your iP or Device is banned!",
+                "body": "Your iP or device has been banned from logging in or creating an account. You can still use a guest account."
+            },
+            "passwordReset": {
+                "resetTitle": "Password Reset",
+                "resetBody": "Do you want to change your password?",
+                "resetEmailSentTitle": "Reset Email Sent",
+                "resetEmailSentBody": "An email will be sent to you shortly to reset your password."
+            }
+        },
+        "signUpScreen": {
+            "labels": {
+                "agreeTems": "I am 13 years old or older. I also agree to the Terms and Condition and the End-User License Agreement (EULA).",
+                "termsAndCondition": "Terms and Condition",
+                "EULA": "End-User License Agreement (EULA)",
+                "ERROR_EMAIL_ALREADY_IN_USE": "This email address is already in use! Try using another email or reset your password!",
+                "acceptTC": "You must accept our Terms & Conditions.",
+                "invalidEmail": {
+                    "title": "Invalid Email",
+                    "body": "Please put in an actual email address."
+                },
+                "maxDisplay": "Max Display Name length is 16 characters.",
+                "usernameText": "(You won't be able to change this later!)\nYou can also only use letters and numbers, the max length is 12 characters."
+            },
+            "popup": {
+                "displayNameToLong": {
+                    "title": "Display name is too long",
+                    "body": "Please make your display name under 16 characters."
+                },
+                "incorrectUsernameFormat": {
+                    "title": "Incorrect username fromat",
+                    "body": "Please make sure the username has no spaces or periods. You can only use letters and numbers in your username."
+                },
+                "cannotChangeUsernameWarning": {
+                    "title": "You can't change your username after this",
+                    "body": "You can't change your username after you create your account. Make sure it is what you want before you tap confirm."
+                },
+                "alreadyClaimed": {
+                    "title": "Username already claimed!",
+                    "body": "This username has already been claimed. Please chose another one."
+                },
+                "claimingUsername": {
+                    "title": "You are claiming",
+                    "body": "This can't be changed later!",
+                    "claim": "Claim"
+                }
+            }
+        },
+        "verifyEmailScreen": {
+            "pageName": "E-Mail bestätigen",
+            "labels": {
+                "checkYourEmail": "Überprüfen Sie Ihren Posteingang!",
+                "verify": "Überprüfen",
+                "or": "oder",
+                "resendEmail": "E-Mail zurücksenden",
+                "pleaseVerifyEmail": {
+                    "title": "Please verify with your email.",
+                    "body": "The email should have already sent. If you don't see it you can resend the email."
+                },
+                "emailSent": {
+                    "title": "E-Mail gesendet!",
+                    "body": "If you can't find the email look in your spam folder."
+                }
+            }
+        },
+        "settings": {
+            "pageName": "Einstellungen",
+            "labels": {
+                "appSettings": "App Settings",
+                "hapticFeedback": "Haptisches Feedback",
+                "sortBooks": "Bücher sortieren nach neuesten",
+                "saveTabOnExit": "Kehren Sie beim erneuten Öffnen zur letzten Registerkarte zurück",
+                "pushNotifications": "Push Notifications",
+                "crSettings": "Chat Room Settings",
+                "appIcon": "App-Ikone",
+                "appIcons": {
+                    "simberMask": {
+                        "title": "Simber mit Maske",
+                        "subtitle": "#WearAMask"
+                    },
+                    "simberKF": {
+                        "subtitle": "Erstellt von Kestrel Flurry"
+                    },
+                    "pride": {
+                        "title": "Unwanteds Stolz",
+                        "subtitle": "#Pride"
+                    }
+                }
+            }
+        },
+        "pushNotifications": {
+            "pageName": "Push Notifications",
+            "labels": {
+                "general": "Allgemeines",
+                "chatRooms": "Chat Rooms",
+                "generalOptions": {
+                    "blackboardAnnouncements": {
+                        "title": "Tafelansagen",
+                        "subtitle": "Get a notification when an announcement is posted on the Blackboards."
+                    },
+                    "follow": {
+                        "title": "Folgen",
+                        "subtitle": "Get a notification when someone follows you."
+                    },
+                    "commentReply": {
+                        "title": "Comment reply",
+                        "subtitle": "Get a notification when someone replys to your comment."
+                    }
+                },
+                "artRoomOptions": {
+                    "upvotes": {
+                        "title": "Upvotes",
+                        "subtitle": "Get a notification when someone upvotes your Art Room post."
+                    },
+                    "comments": {
+                        "title": "Comments",
+                        "subtitle": "Get a notification when someone comments your Art Room post."
+                    }
+                },
+                "libraryOptions": {
+                    "upvotes": {
+                        "title": "Upvotes",
+                        "subtitle": "Get a notification when someone upvotes your Library post."
+                    },
+                    "comments": {
+                        "title": "Comments",
+                        "subtitle": "Get a notification when someone comments your Library post."
+                    }
+                },
+                "chatroomOptions": {
+                    "mentions": {
+                        "title": "Mentions",
+                        "subtitle": "Get a notification when someone mentions you in a Chat Room."
+                    },
+                    "mentionsByStaff": {
+                        "title": "Mentions by Staff",
+                        "subtitle": "Get a notification when a staff member mentions you even if you have Mentions option off."
+                    }
+                }
+            }
+        },
+        "chatRoomSettings": {
+            "pageName": "Chat Room",
+            "labels": {
+                "chatEffects": "Chat-Effekte",
+                "chatEffectsItems": {
+                    "flashEffects": {
+                        "title": "Disable effects that flash on the screen",
+                        "subtitle": "Please disable this if you have Photosensitive epilepsy."
+                    },
+                    "movingEffects": {
+                        "title": "Disable moving effects",
+                        "subtitle": "Please disable this if you sensitive to moving object."
+                    },
+                    "confettiCannon": {
+                        "title": "Disable confetti cannon",
+                        "subtitle": "Stops the confetti from going off on your screen."
+                    }
+                },
+                "other": "Other",
+                "otherItems": {
+                    "lurkingMode": {
+                        "title": "Lurking Mode",
+                        "subtitle": "Lets you lurk around the chat rooms without being seen. (You won't be able to chat in this mode)"
+                    }
+                }
+            }
+        },
+        "mentions": {
+            "pageName": "Erwähnungen",
+            "labels": {
+                "removeMessage": "Die Nachricht wurde aus Ihren Erwähnungen entfernt. (Hinweis: Dadurch wird es nicht aus den Chatrooms entfernt.)"
+            }
+        },
+        "usernameSettings": {
+            "pageName": "Nutzername",
+            "labels": {
+                "claim": "Anspruch",
+                "alreadyClaimed": "Benutzername bereits beansprucht.",
+                "alreadyTaken": "Benutzername bereits vergeben.",
+                "usernameSet": "Benutzername festgelegt.",
+                "incorrectFormat": "Falsches Benutzernamenformat."
+            }
+        },
+        "seriesPages": {
+            "labels": {
+                "books": "Bücher",
+                "theUnwantedsDates": "2011 - 2016 | 7 Books",
+                "theUnwantedsQuestsDates": "2017 - 2021 | 7 Books",
+                "theUnwantedsBio": "Every year in Quill, thirteen-year-olds are sorted into categories: the strong, intelligent Wanteds go to university, and the artistic Unwanteds are sent to their graves.",
+                "theUnwantedsQuestsBio": "Ten years after Alex and Aaron Stowe brought peace to Quill and Artimé, their younger twin sisters journey beyond the islands in this new sequel series to The Unwanteds!"
+            }
+        },
+        "fullPagePopups": {
+            "welcome": {
+                "body": "Hi there! Welcome to The Unwanteds App. Please have a look around. You can comment on most things—just click on them. You can also join your fellow Unwanteds in the chat rooms. Remember to be kind to your fellow unwanteds—we’ve all been through a lot, what with being sent to our deaths and all.\n\nI hope you enjoy. Thanks for reading my books. \n\nYour friend,\n\nLisa McMann"
+            },
+            "library": {
+                "body": "Hello fellow Unwanted!\n\nThe Library is a place for other unwanteds to share their fan fiction story's in the Unwanteds world!\n\nPlease keep everything PG all you Unwanted writers!\n\nSome rules:\n- keep things clean\n- use library for actual stories only, with a minimum of 100 words\n- check spelling and grammar to the best of your ability\n- must be Unwanteds related\n- must be original\n- updating on a story is allowed\n\nHappy posting!"
+            },
+            "artRoom": {
+                "body": "Hello fellow Unwanted!\n\nThe Art Room is a place for other unwanteds to share their fan art!\n\nPlease keep everything PG all you Unwanted artists!\n\nSome rules:\n- if reference picture is used credit the original artist and ask for permission\n- try to keep things original\n- keep things clean\n- must be Unwanteds related\n\nHappy posting!"
+            },
+            "COPPA": {
+                "body1": "To comply with COPPA (Children's Online Privacy Protection Act) to create an account you must be 13 years old or older. Unwanteds app development company \"isontic\" is based in the United States and is subject to the laws based in the United States.\n\nChildren under 12 and under can still view all Unwanteds information in the app but cannot create an account to interact with other users.",
+                "body2": "By tapping the continue button you are acknowledging that you are over 13. If you acknowledge that you are over 13 and found that you aren't, your account will be suspended till your of age.",
+                "button": "Learn more about COPPA"
+            },
+            "report": {
+                "body": "Bitte beachten Sie,\nwarum Sie dies melden",
+                "textField": "Grund, dies zu melden"
+            }
+        },
+        "languages": {
+            "pageName": "Sprachen",
+            "languages": {
+                "english": {
+                    "language": "Englisch",
+                    "credit": "Elias Deuss"
+                },
+                "german": {
+                    "language": "Deutsche",
+                    "credit": "Elias / Gustav"
+                }
+            }
+        },
+        "readBooks": {
+            "pageName": "Bücher lesen",
+            "labels": {
+                "readbooksYou": "Bücher, die Sie gelesen haben.",
+                "readbooksOther": "Bücher, die sie gelesen haben."
+            }
+        }
+    },
+    "labels": {
+        "actions": {
+            "areYouSure": "Bist du sicher?",
+            "cantBeUndone": "This action can't be undone.",
+            "viewComments": "Kommentare ansehen",
+            "search": "Suche...",
+            "replyTo": "Antwort an",
+            "newReply": "Neue Antwort",
+            "required": "Erforderlich"
+        },
+        "buttons": {
+            "login": "Einloggen",
+            "signUp": "Einschreiben",
+            "caaGuest": "Fahren Sie als Gast fort",
+            "ok": "Ok",
+            "post": "Post",
+            "read": "Lesen",
+            "remove": "Entfernen",
+            "disable": "Disable",
+            "cancel": "Stornieren",
+            "edit": "Bearbeiten",
+            "assign": "Zuordnen",
+            "update": "Aktualisierung",
+            "reset": "Zurücksetzen",
+            "save": "Speichern",
+            "continue": "Fortsetzen",
+            "order": "Bestellung",
+            "link": "Verknüpfung",
+            "back": "Zurück",
+            "gotIt": "Ich habs",
+            "done": "Erledigt",
+            "camera": "Kamera",
+            "photoGallery": "Fotogallerie",
+            "editPage": "Edit Page",
+            "thatsIt": "Das ist es!",
+            "loadMore": "Mehr laden",
+            "logout": "Ausloggen",
+            "rateTheApp": "Bewerten Sie die App",
+            "reportABug": "Melde einen technischen Fehler",
+            "report": "Berichten",
+            "loginSignUp": "Einloggen / Einschreiben!",
+            "signInWithApple": "Sign in with Apple",
+            "commentAction": {
+                "replyToComment": "Auf Kommentar antworten",
+                "viewProfile": "Profil anzeigen",
+                "reportComment": "Kommentar melden",
+                "removeComment": "Kommentar entfernen",
+                "reply": "Antwort"
+            }
+        },
+        "roles": {
+            "author": "Autorin"
+        },
+        "random": {
+            "comments": "Bemerkungen",
+            "newComment": "Neuer Kommentar",
+            "noComments": "Keine Kommentare",
+            "noCommentsSubtitle": "Es ist ruhig... zu leise..",
+            "fandomFork": "Ein Teil dieses Inhalts wurde von gegabelt The Unwanteds Fandom Seite.",
+            "copiedToClipboard": "In die Zwischenablage kopiert!",
+            "noLinksAvailable": "Keine Links verfügbar",
+            "uploadingImage": "Bild hochladen...",
+            "uploadInProgress": "Upload läuft...",
+            "notAImage": "Diese Datei ist kein Bild.",
+            "checkInternetConnection": "Bitte überprüfe deine Internetverbindung",
+            "postBy": "Durch",
+            "avatar": "Benutzerbild",
+            "displayName": "Anzeigename",
+            "email": "Email",
+            "password": "Passwort",
+            "or": "oder",
+            "settingsUpdated": "Einstellungen aktualisiert!",
+            "holdToReply": "Halten Sie gedrückt, um zu antworten",
+            "imageSave": "Bild gespeichert!",
+            "imageSaveError": "Bild konnte nicht gespeichert werden."
+        },
+        "popups": {
+            "bookContentWarning": {
+                "title2": "Contains new book content",
+                "body1": "This page contains new info from the ",
+                "body2": ".Please read with care, this info might spoil the book for you."
+            },
+            "reportBug": {
+                "title": "Fehlerbericht",
+                "body": "This must be an issue with the app. If you are having issues with your account please contact App Support in the About page (This includes if you where banned).",
+                "button": "Fehler"
+            },
+            "pageLocked": {
+                "title": "Seite gesperrt",
+                "body": "Nur Administratoren können diese Seite bearbeiten."
+            },
+            "pageVerified": {
+                "title": "Verifizierte Informationen",
+                "body": "Diese Seite zeigt korrekte Informationen."
+            },
+            "commentReported": {
+                "title": "Kommentar gemeldet!",
+                "body": "Unwanteds Mitarbeiter werden den Kommentar in Kürze überprüfen!"
+            },
+            "messageReported": {
+                "title": "Nachricht gemeldet!",
+                "body": "Unwanteds Mitarbeiter werden die Nachricht bald überprüfen!"
+            },
+            "userReported": {
+                "title": "Benutzer gemeldet!",
+                "body": "Unwanteds Mitarbeiter werden den Benutzer in Kürze überprüfen!"
+            },
+            "13orOlderBan": {
+                "title": "Von der Veröffentlichung ausgeschlossen",
+                "body": "You have been banned from posting because you are under 13."
+            },
+            "13orOlderBanCommenting": {
+                "title": "Banned from commenting",
+                "body": "You have been banned from commenting because you are under 13."
+            },
+            "bannedFromPosting": {
+                "title": "Banned from posting",
+                "body": "You have been banned from posting!",
+                "bodyTill": "You have been banned from posting till"
+            },
+            "bannedFromCommenting": {
+                "title": "Banned from commenting",
+                "body": "You have been banned from commenting!",
+                "bodyTill": "You have been banned from commenting till"
+            },
+            "createAnAccountToAccess": {
+                "title": "Benutzerkonto anlegen",
+                "body": "Sie müssen ein Konto erstellen, um auf diese Seite zugreifen zu können."
+            },
+            "createAnAccountToUpvote": {
+                "title": "Benutzerkonto anlegen",
+                "body": "Sie müssen ein Konto erstellen, um Dinge zu mögen."
+            },
+            "createAnAccountToPost": {
+                "title": "Benutzerkonto anlegen",
+                "body": "Sie müssen ein Konto erstellen, um Dinge zu posten."
+            },
+            "createAnAccountToComment": {
+                "title": "Benutzerkonto anlegen",
+                "body": "Sie müssen ein Konto erstellen, um Kommentare abzugeben."
+            },
+            "createAnAccountToCommentinteract": {
+                "title": "Benutzerkonto anlegen",
+                "body": "Sie müssen ein Konto erstellen, um mit Kommentaren interagieren zu können."
+            },
+            "checkConnection": {
+                "title": "Überprüfen Sie Ihre Verbindung",
+                "body": "Bitte überprüfen Sie Ihre Internetverbindung, da diese zum Posten erforderlich ist."
+            },
+            "checkConnectionCommenting": {
+                "title": "Überprüfen Sie Ihre Verbindung",
+                "body": "Bitte überprüfen Sie Ihre Internetverbindung, da diese zum Kommentieren erforderlich ist."
+            },
+            "dragonSlayersWarning": {
+                "title": "Unwanteds Quests: Dragon Slayers",
+                "body": "Contains Dragon Slayers content, info on this page may spoil some of the book for you. Read with care."
+            },
+            "dragonFuryWarning": {
+                "title": "Unwanteds Quests: Dragon Fury",
+                "body": "Contains Dragon Fury content, info on this page may spoil some of the book for you. Read with care."
+            }
+        }
+    }
+}
